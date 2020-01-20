@@ -1,0 +1,9 @@
+src/data/
+
+build.sbt
+
+.DS_Store
+
+target/
+
+.csv
