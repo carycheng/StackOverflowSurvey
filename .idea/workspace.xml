@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ScalaSpark:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb05677-8b6b-4091-a7a7-ecd35a59a42c" name="Default Changelist" comment="" />
+    <list default="true" id="fbb05677-8b6b-4091-a7a7-ecd35a59a42c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/StackOverflowSurvey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/StackOverflowSurvey.scala" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +80,13 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
   </component>
   <component name="RecentsManager">
@@ -180,6 +193,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3159001842834" />
         <entry key="$PROJECT_DIR$/build.sbt" value="2686752388" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3666975207" />
       </map>
@@ -203,7 +217,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579500620009</updated>
-      <workItem from="1579500621756" duration="7347000" />
+      <workItem from="1579500621756" duration="8846000" />
+      <workItem from="1579550628558" duration="5121000" />
     </task>
     <servers />
   </component>
@@ -215,7 +230,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

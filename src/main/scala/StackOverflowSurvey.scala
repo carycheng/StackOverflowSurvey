@@ -12,7 +12,6 @@ object StackOverflowSurvey {
 
 		val sparkSession = SparkSession.builder()
 				.appName("StackOverflowSurveyResponse")
-				.config("spark.master", "local[*]")
 				.getOrCreate()
 		import sparkSession.implicits._
 
@@ -22,8 +21,9 @@ object StackOverflowSurvey {
 				.format("csv")
 				.option("header", true)
 				.option("inferSchema", true)
-				.csv("src/data/survey_results_public.csv")
+				.csv("s3n://carystackoverflowanalytics/survey_results_public.csv")
 
-		responses.groupBy("Country").count().sort($"count".desc).show(100,false)
+		responses.groupBy("Country", "CodeRevHrs")
+				 .count().sort($"count".desc).show(100,false)
 	}
 }

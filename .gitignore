@@ -7,3 +7,5 @@ build.sbt
 target/
 
 .csv
+
+.idea
